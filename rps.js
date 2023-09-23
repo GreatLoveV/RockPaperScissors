@@ -32,7 +32,7 @@ function playRound(playerSelection , computerSelection){
 function game() {
     let scorePlayer = 0;
     let scoreComputer = 0;
-    playerSelection = prompt("Rock Papers or Scissors?");
+    playerSelection = prompt("rock paper or scissors?");
     computerSelection = getComputerChoice();
     result = playRound(playerSelection, computerSelection)
     playRound(playerSelection)
@@ -41,7 +41,7 @@ function game() {
     console.log(result)
 
     
-    playerSelection = prompt("Rock Papers or Scissors?");
+    playerSelection = prompt("rock paper or scissors?");
     computerSelection = getComputerChoice();
     result = playRound(playerSelection, computerSelection)
     playRound(playerSelection)
@@ -50,7 +50,7 @@ function game() {
     console.log(result)
 
 
-    playerSelection = prompt("Rock Papers or Scissors?");
+    playerSelection = prompt("rock paper or scissors?");
     computerSelection = getComputerChoice();
     result = playRound(playerSelection, computerSelection) 
     playRound(playerSelection)
@@ -59,7 +59,7 @@ function game() {
     console.log(result)
 
 
-    playerSelection = prompt("Rock Papers or Scissors?");
+    playerSelection = prompt("rock paper or scissors?");
     computerSelection = getComputerChoice();
     result = playRound(playerSelection, computerSelection)
     playRound(playerSelection)
@@ -68,7 +68,7 @@ function game() {
     console.log(result)
 
 
-    playerSelection = prompt("Rock Papers or Scissors?");
+    playerSelection = prompt("rock paper or scissors?");
     computerSelection = getComputerChoice();
     result = playRound(playerSelection, computerSelection)
     playRound(playerSelection)
@@ -84,32 +84,3 @@ function game() {
 
 }
 game();
-//     (scorePlayer > scoreComputer)? alert(`You Win! You scored ${scorePlayer} out of 5`)
-//     :alert(`You Lost! You only scores ${scorePlayer} out of 5`);
-// }
-// game()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// (playerSelection === "rock" && computerSelection === "paper")? "You Lose! Paper beats Rock":
-//         (playerSelection === "paper" && computerSelection === "scissors")? "You Lose! Scissors beat Paper":
-//         (playerSelection === "scissors" && computerSelection === "rock")? "You Lose! Rock beats Scissors":
-//         (playerSelection === "paper" && computerSelection === "rock")? "You Win! Paper beats Rock":
-//         (playerSelection === "scissors" && computerSelection === "paper")? "You Win! Scissors beat Paper":
-//         (playerSelection === "rock" && computerSelection === "scissors")? "You Win! Rock beats Scissors":
